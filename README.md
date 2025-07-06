@@ -20,7 +20,7 @@ The dataset contains information about housing attributes and their prices. Key 
 - `bathrooms`
 - `stories`
 - `parking`
-- `mainroad` access
+- `mainroad`
 - `price`
 
 > 📌 Note: Replace the dataset path in the code with your own path if necessary:
@@ -57,11 +57,11 @@ housing_data <- read.csv("D:/E-books/SEM 3/Applied Stat and R Lab/Housing.csv")
 
 ## How to run the project:
 
-- Open the .R file in RStudio.
-- Ensure the required libraries are installed:
+1. Open the .R file in RStudio.
+2. Ensure the required libraries are installed:
 ```r
 install.packages(c("ggplot2", "dplyr", "plotly", "GGally", "caret"))
 ```
-- Run the entire script or execute code blocks step-by-step.
-- At the end of the script, enter your own housing features when prompted to get a predicted price.
+3. Run the entire script or execute code blocks step-by-step.
+4. At the end of the script, enter your own housing features when prompted to get a predicted price.
 
